@@ -89,6 +89,8 @@ BOARD_KERNEL_CMDLINE += kpti=off
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+ODM_MANIFEST_SKUS := joyeuse
+ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest-nfc.xml
 
 # Media
 TARGET_USES_ION := true
