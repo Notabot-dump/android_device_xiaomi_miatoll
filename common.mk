@@ -169,8 +169,21 @@ PRODUCT_PACKAGES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    audio \
+    av \
     bt \
-    perf
+    display \
+    gps \
+    init \
+    media-legacy \
+    nq-nfc \
+    overlay \
+    perf \
+    telephony \
+    usb \
+    vibrator \
+    wlan
 
 # Recovery
 PRODUCT_COPY_FILES += \
